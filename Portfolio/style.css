@@ -1,0 +1,276 @@
+* {
+    margin: auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+body {
+    background-color: #22212C;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin: auto;
+}
+
+#profile {
+    width: 21.75rem;
+    height: 18.25rem;
+    background-color: #302F3D;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+#profile-list {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#profile-list h5 {
+    margin-top: 0.5rem;
+}
+
+#resume {
+    width: 21.75rem;
+    height: 21.75rem;
+    background-color: #302F3D;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    align-content: left;
+    margin: 0 0 1rem 0;
+}
+
+#bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+
+}
+
+
+#bloco p img {
+    align: left;
+    vertical-align: middle;
+    margin: 0.5rem;
+}
+
+#technologies {
+    width: 21.75rem;
+    height: 13rem;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+}
+
+#technologies h2 {
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+
+#ctas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.cta {
+    background-color: #CB92B1;
+    width: 86px;
+    height: 24px;
+    border-radius: 25px;
+    margin: auto 0.15rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border: none;
+    color: #22212C;
+    font-weight: 700;
+}
+
+#experiences {
+    width: 21.75rem;
+    height: 21.75rem;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+}
+
+#experiences h2 {
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+#experiences ul {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+#experiences ul li {
+    margin: 0.5rem 1.25rem;
+}
+
+#education {
+    width: 21.75rem;
+    height: 21.75rem;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+}
+
+#education h2 {
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+#education ul {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#education ul li {
+    margin: 0.5rem 1.25rem;
+}
+
+#avatar {
+    width: 08rem;
+}
+
+h1 {
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+
+
+
+
+#projects {
+    width: 88rem;
+    height: 86px;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: -50em 0rem 1rem 0rem;
+}
+
+#col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#project-left {
+    width: 43.25rem;
+    height: 186px;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+    margin-right: 0.5rem;
+}
+
+#bloco-left {
+    margin: 1.5rem 0 0 -8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#bloco-right {
+    margin: 1.5rem 0 0 -8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#project-right {
+    width: 43.25rem;
+    height: 186px;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+    margin-left: 0.5rem;
+}
+
+#resume-itens-left img {
+    margin: -0.3rem 0.5rem;
+}
+
+#resume-itens-right img {
+    margin: -0.3rem 0.5rem;
+}
+
+#posts {
+    width: 88rem;
+    height: 86px;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+}
+
+#last {
+    width: 88rem;
+    height: 201px;
+    background-color: #302F3D;
+    border-radius: 25px;
+    margin: 0 0 1rem 0;
+}
+
+#bloco-last {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+#bloco-last .last-itens1 {
+    margin: 2rem 0 0 2rem;
+}
+#bloco-last .last-itens2 {
+    margin: 2rem 0 0 2rem;
+    gap: 5rem;
+}
+
+#bloco-last .last-itens2 span{
+    margin: 0 3rem 0 0;
+}
